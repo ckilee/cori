@@ -23,7 +23,7 @@
     </string-array>
 
     <string-array name="audio_arrays" >
-        <item>Surpresa Corinthians</item>
+        <item>Vai Corinthians</item>
         <item>Todo Poderoso</item>
         <item>Bando de locos</item>
         <item>Veio pra vencer</item>
@@ -37,7 +37,7 @@
         <item>Torcida 2</item>
     </string-array>
 
-    <string name="title_activity_scare" translatable="false">Vai Corinthians!</string>
+    <string name="title_activity_scare" translatable="false">Surpresa Corinthians</string>
 
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-9505366133372164/8299119138</string>
     <string name="banner_ad_unit_id2" translatable="false">ca-app-pub-9505366133372164/1888351936</string>
