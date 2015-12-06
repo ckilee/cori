@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //loadAdware();
+        loadAdware();
 
         imageSpinner = (Spinner)findViewById(R.id.spinner_image);
         ArrayAdapter adapter = ArrayAdapter.createFromResource(this, R.array.image_arrays, android.R.layout.simple_spinner_item);
@@ -94,7 +94,7 @@ public class MainActivity extends Activity {
         //AdRequest adRequest = new AdRequest.Builder().build();
         AdRequest adRequest = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("E112885C2D32D31690C7B60F25C89356")
+                .addTestDevice("6B95C2235F71E07117E929AE067BED28")
                 .addTestDevice("13E7A5DDF2981F979D554ED02BC571B3")
                 .build();
 
@@ -102,10 +102,10 @@ public class MainActivity extends Activity {
 
         //Adware interstitial ads
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_id));
+        mInterstitialAd.setAdUnitId(this.getString(R.string.banner_ad_unit_id_scare_activity));
         AdRequest adRequestInterstitialAd = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .addTestDevice("E112885C2D32D31690C7B60F25C89356")
+                .addTestDevice("6B95C2235F71E07117E929AE067BED28")
                 .addTestDevice("13E7A5DDF2981F979D554ED02BC571B3")
                 .build();
         //AdRequest adRequestInterstitialAd = new AdRequest.Builder().build();
@@ -220,6 +220,10 @@ public class MainActivity extends Activity {
                 imageResource = R.drawable.torcida1;
             } else if(pos==4){
                 imageResource = R.drawable.torcida2;
+            } else if(pos==5){
+                imageResource = R.drawable.chupa_sao_paulo;
+            } else if(pos==6){
+                imageResource = R.drawable.chupa_palmeiras;
             }
             currentImageID = imageResource;
             Drawable image = getResources().getDrawable(imageResource);
@@ -275,6 +279,10 @@ public class MainActivity extends Activity {
                 currentSoundID = R.raw.bandodelocos;
             if(pos==3)
                 currentSoundID = R.raw.veiopravencer;
+            if(pos==4)
+                currentSoundID = R.raw.chupa_sao_aulo;
+            if(pos==5)
+                currentSoundID = R.raw.chupa_palmeiras;
 
         }
 

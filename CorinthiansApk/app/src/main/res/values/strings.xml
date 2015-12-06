@@ -27,6 +27,8 @@
         <item>Todo Poderoso</item>
         <item>Bando de locos</item>
         <item>Veio pra vencer</item>
+        <item>Chupa São Paulo</item>
+        <item>Chupa Palmeiras</item>
     </string-array>
 
     <string-array name="image_arrays" >
@@ -35,11 +37,13 @@
         <item>Nação</item>
         <item>Torcida 1</item>
         <item>Torcida 2</item>
+        <item>Chupa São Paulo</item>
+        <item>Chupa Palmeiras</item>
     </string-array>
 
     <string name="title_activity_scare" translatable="false">Surpresa Corinthians</string>
 
-    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-9505366133372164/8299119138</string>
-    <string name="banner_ad_unit_id2" translatable="false">ca-app-pub-9505366133372164/1888351936</string>
+    <string name="banner_ad_unit_id_main_activity" translatable="false">ca-app-pub-9505366133372164/9745168338</string>
+    <string name="banner_ad_unit_id_scare_activity" translatable="false">ca-app-pub-9505366133372164/2221901535</string>
 
 </resources>
